@@ -1,0 +1,10 @@
+USAGE
+Copy the helloworld/ directory to somewhere in your PYTHONPATH, and add
+"helloworld" to INSTALLED_APPS in settings.py. Then, place the following code
+where the tag should be displayed:
+    {% load helloworld %} {% helloworld %}
+
+The helloworldsite/ directory contains a mirrored copy of 
+<http://helloworldsite.he.funpic.de/>, from which the phrases were taken.
+
+Author Homepage: http://da.vidr.cc/
